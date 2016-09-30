@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/mainToolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@color/letterColor">
+
+        <TextView
+            android:layout_width="@dimen/patty_width"
+            android:layout_height="@dimen/patty_height"
+            android:paddingTop="@dimen/patty_padding"
+            android:paddingBottom="@dimen/patty_padding"
+            android:paddingRight="@dimen/patty_padding_side"
+            android:paddingLeft="@dimen/patty_padding_side"
+            android:textSize="@dimen/patty_text_size"
+            android:gravity="center"
+            android:layout_gravity="right"
+            android:layout_marginRight="@dimen/toolbar_score_margin"
+            android:background="@drawable/patty_border"
+            android:text=""
+            android:drawableLeft="@drawable/patty_total"
+            android:id="@+id/pattyView" />
+
+    </android.support.v7.widget.Toolbar>
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent" android:layout_height="fill_parent"
+        tools:context=".PattiesActivity" tools:ignore="MergeRootFrame" />
+
+</LinearLayout>

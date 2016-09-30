@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/letter_width"
+    android:layout_height="@dimen/letter_height"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:background="@drawable/letter_border"
+    android:padding="@dimen/letter_padding"
+    android:textStyle="bold"
+    android:textSize="@dimen/letter_size"
+    android:text=""
+    android:id="@+id/letterView" />

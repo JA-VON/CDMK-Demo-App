@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EditText xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="@dimen/letter_width"
+        android:layout_height="@dimen/letter_height"
+        android:text="L"
+        android:textSize="@dimen/letter_size"
+        android:textStyle="bold"
+        android:maxLength="1"
+        android:id="@+id/letter"/>

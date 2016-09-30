@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.chatois.app.fragments.AnswerCorrectFragment"
+    android:background="@color/DarkBackground">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:gravity="center"
+        android:textSize="@dimen/answer_header_size"
+        android:textColor="@color/letterColor"
+        android:textStyle="bold"
+        android:text="@string/answerCorrect"
+        android:id="@+id/correctHeader"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="70dp"
+        android:background="@drawable/next_background"
+        android:text="@string/next"
+        android:textSize="@dimen/next_button_size"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:onClick="next"
+        android:id="@+id/nextButton"
+        android:layout_marginBottom="102dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

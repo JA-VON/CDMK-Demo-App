@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="@dimen/patty_width"
+        android:layout_height="@dimen/patty_height"
+        android:paddingTop="@dimen/patty_padding"
+        android:paddingBottom="@dimen/patty_padding"
+        android:paddingRight="@dimen/patty_padding_side"
+        android:paddingLeft="@dimen/patty_padding_side"
+        android:textSize="@dimen/patty_text_size"
+        android:gravity="center"
+        android:layout_gravity="left"
+        android:layout_marginRight="@dimen/toolbar_score_margin"
+        android:background="@drawable/patty_border"
+        android:text=""
+        android:drawableLeft="@drawable/patty_total"
+        android:id="@+id/pattyView" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=""
+        android:id="@+id/price_text" />
+</LinearLayout>
