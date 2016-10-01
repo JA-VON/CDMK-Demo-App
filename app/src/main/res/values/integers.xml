@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="hear_wippe_cost">20</integer>
+    <integer name="increase_amount">1</integer>
+    <integer name="max_level">248</integer>
+    <integer name="show_letter_amount">4</integer>
+    <integer name="show_answer_amount">6</integer>
+    <integer name="start_amount">20</integer>
+</resources>

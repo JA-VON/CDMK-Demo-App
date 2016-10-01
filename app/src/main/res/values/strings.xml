@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">CDMK</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="defaultHint">This is the default Hint</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="answerCorrect">Yu a Real Yaad Man</string>
+    <string name="title_activity_splash">Chatois!</string>
+    <string name="option_play">Play</string>
+    <string name="option_instruction">Instructions</string>
+    <string name="next">Awoh!</string>
+    <string name="instructions">Think you know your Caribbean patois? Click the letter tiles to fill the slots and guess the word based on the hint.You get a patty for every correct word and you can use patties to buy a letter. Press play to get started!</string>
+    <string name="oh">OH !</string>
+    <string name="ahh">Ahh</string>
+    <string name="plus_one">+L</string>
+    <string name="no">no</string>
+    <string name="ok">OK</string>
+    <string name="title_activity_patties">PattiesActivity</string>
+    <string name="error">Error loading patty option</string>
+    <string name="get_patty_heading">Want more patty?</string>
+    <string name="no_more_patties">No Bodda!</string>
+    <string name="title_activity_advertisement">AdvertisementActivity</string>
+    <string name="complete">That\'s all for now, thanks for playing hope you enjoyed. Look for updates with added words and features. Lata bredrin.</string>
+    <string name="gweh">Gweh</string>
+    <string name="show_answer_text">Wah Dat?</string>
+    <string name="string_first">first_time</string>
+    <string name="string_skips">skips</string>
+    <string name="string_level">level</string>
+    <string name="string_patties">patties</string>
 </resources>
